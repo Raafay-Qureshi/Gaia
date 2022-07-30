@@ -25,4 +25,11 @@ class SecondViewController: UIViewController {
             self.helloTitle.text = "Hello \(self.username)"
         }
     }
+    
+    
+    @IBAction func pointsButtonPressed(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: "pointViewSegue", sender: self)
+    }
+    
 }

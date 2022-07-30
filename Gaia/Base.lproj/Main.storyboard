@@ -131,6 +131,9 @@
                                 <buttonConfiguration key="configuration" style="gray" title="Points">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="pointsButtonPressed:" destination="w2L-o7-b58" eventType="touchUpInside" id="5nZ-g6-1Cy"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gaia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtP-rZ-Lkz">
                                 <rect key="frame" x="168" y="154" width="74" height="42"/>
@@ -154,11 +157,36 @@
                     <navigationItem key="navigationItem" id="UYn-WQ-14t"/>
                     <connections>
                         <outlet property="helloTitle" destination="cA9-Bb-1K6" id="fhC-gl-jd0"/>
+                        <segue destination="8Ku-PS-9vE" kind="showDetail" identifier="pointViewSegue" id="QP2-cu-HB1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qL8-aD-bX1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="740.57971014492762" y="83.705357142857139"/>
+        </scene>
+        <!--Points View Controller-->
+        <scene sceneID="cI2-Rp-cxR">
+            <objects>
+                <viewController storyboardIdentifier="PointsViewController" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="8Ku-PS-9vE" customClass="PointsViewController" customModule="Gaia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hvY-Jt-zZN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYs-zj-HZM">
+                                <rect key="frame" x="186" y="107" width="70" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RKA-oE-4OE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dmm-oE-Pfk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1591.304347826087" y="90.401785714285708"/>
         </scene>
     </scenes>
     <resources>
