@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		2269CFAE28957E99004D5895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269CFAD28957E99004D5895 /* AppDelegate.swift */; };
 		2269CFB028957E99004D5895 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269CFAF28957E99004D5895 /* SceneDelegate.swift */; };
-		2269CFB228957E99004D5895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269CFB128957E99004D5895 /* ViewController.swift */; };
+		2269CFB228957E99004D5895 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269CFB128957E99004D5895 /* LoginViewController.swift */; };
 		2269CFB528957E99004D5895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2269CFB328957E99004D5895 /* Main.storyboard */; };
 		2269CFB828957E99004D5895 /* Gaia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2269CFB628957E99004D5895 /* Gaia.xcdatamodeld */; };
 		2269CFBA28957E9D004D5895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2269CFB928957E9D004D5895 /* Assets.xcassets */; };
 		2269CFBD28957E9D004D5895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2269CFBB28957E9D004D5895 /* LaunchScreen.storyboard */; };
+		2269CFC528958DE4004D5895 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269CFC428958DE4004D5895 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2269CFAA28957E99004D5895 /* Gaia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gaia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2269CFAD28957E99004D5895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2269CFAF28957E99004D5895 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2269CFB128957E99004D5895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2269CFB128957E99004D5895 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2269CFB428957E99004D5895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2269CFB728957E99004D5895 /* Gaia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gaia.xcdatamodel; sourceTree = "<group>"; };
 		2269CFB928957E9D004D5895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2269CFBC28957E9D004D5895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2269CFBE28957E9D004D5895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2269CFC428958DE4004D5895 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +62,13 @@
 			children = (
 				2269CFAD28957E99004D5895 /* AppDelegate.swift */,
 				2269CFAF28957E99004D5895 /* SceneDelegate.swift */,
-				2269CFB128957E99004D5895 /* ViewController.swift */,
+				2269CFB128957E99004D5895 /* LoginViewController.swift */,
 				2269CFB328957E99004D5895 /* Main.storyboard */,
 				2269CFB928957E9D004D5895 /* Assets.xcassets */,
 				2269CFBB28957E9D004D5895 /* LaunchScreen.storyboard */,
 				2269CFBE28957E9D004D5895 /* Info.plist */,
 				2269CFB628957E99004D5895 /* Gaia.xcdatamodeld */,
+				2269CFC428958DE4004D5895 /* SecondViewController.swift */,
 			);
 			path = Gaia;
 			sourceTree = "<group>";
@@ -141,9 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2269CFB228957E99004D5895 /* ViewController.swift in Sources */,
+				2269CFB228957E99004D5895 /* LoginViewController.swift in Sources */,
 				2269CFAE28957E99004D5895 /* AppDelegate.swift in Sources */,
 				2269CFB028957E99004D5895 /* SceneDelegate.swift in Sources */,
+				2269CFC528958DE4004D5895 /* SecondViewController.swift in Sources */,
 				2269CFB828957E99004D5895 /* Gaia.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
