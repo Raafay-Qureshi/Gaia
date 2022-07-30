@@ -16,6 +16,7 @@
 		2269CFBD28957E9D004D5895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2269CFBB28957E9D004D5895 /* LaunchScreen.storyboard */; };
 		2269CFC528958DE4004D5895 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269CFC428958DE4004D5895 /* SecondViewController.swift */; };
 		8F30070B28959FBC00386D51 /* PointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30070A28959FBC00386D51 /* PointsViewController.swift */; };
+		8FBB4B762895C41300E590ED /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB4B752895C41300E590ED /* ScanViewController.swift */; };
 		8FC5982F28959B3E003932E4 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8FC5982E28959B3E003932E4 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		2269CFBE28957E9D004D5895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2269CFC428958DE4004D5895 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8F30070A28959FBC00386D51 /* PointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewController.swift; sourceTree = "<group>"; };
+		8FBB4B752895C41300E590ED /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		8FC5982E28959B3E003932E4 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 				2269CFC428958DE4004D5895 /* SecondViewController.swift */,
 				8FC5982E28959B3E003932E4 /* Resnet50.mlmodel */,
 				8F30070A28959FBC00386D51 /* PointsViewController.swift */,
+				8FBB4B752895C41300E590ED /* ScanViewController.swift */,
 			);
 			path = Gaia;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				2269CFC528958DE4004D5895 /* SecondViewController.swift in Sources */,
 				8FC5982F28959B3E003932E4 /* Resnet50.mlmodel in Sources */,
 				2269CFB828957E99004D5895 /* Gaia.xcdatamodeld in Sources */,
+				8FBB4B762895C41300E590ED /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
