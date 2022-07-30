@@ -8,10 +8,21 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    
+    @IBOutlet weak var helloTitle: UILabel!
+    
+    var username = String()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+    }
+    
+    func getLoginInfo(un: String) {
+        username = un
+        
+        DispatchQueue.main.async {
+            self.helloTitle.text = "Hello \(self.username)"
+        }
     }
 }

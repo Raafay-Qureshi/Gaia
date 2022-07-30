@@ -19,6 +19,8 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     @IBOutlet weak var objectNameLabel: UILabel!
     @IBOutlet weak var accuracyLabel: UILabel!
     
+    @IBOutlet weak var usernameTextField: UITextField!
+    
     var model = Resnet50().model
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,9 +52,8 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
         let svc = segue.destination as? SecondViewController
+        svc?.getLoginInfo(un: usernameTextField.text ?? "Human")
     }
     
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
