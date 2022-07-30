@@ -5,16 +5,17 @@
 //  Created by CoopStudent on 7/30/22.
 //
 
-import Foundation
+
 import UIKit
 import AVKit
 import Vision
 
-class ScanController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
+class ScanViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
     
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
     
     @IBOutlet weak var belowView: UIView!
     @IBOutlet weak var objectNameLabel: UILabel!

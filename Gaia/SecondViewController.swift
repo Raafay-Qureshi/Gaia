@@ -27,6 +27,9 @@ class SecondViewController: UIViewController {
     }
     
     
+    @IBAction func scanButtonPressed(_ sender: Any) {
+        self.performSegue(withIdentifier: "scanSegue", sender: self)
+    }
     @IBAction func pointsButtonPressed(_ sender: Any) {
         
         self.performSegue(withIdentifier: "pointViewSegue", sender: self)

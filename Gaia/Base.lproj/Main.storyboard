@@ -59,7 +59,7 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4yP-l8-s53">
                                 <rect key="frame" x="136" y="573" width="143" height="43"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Log In">
+                                <buttonConfiguration key="configuration" style="filled" title="Sign Up">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -123,6 +123,9 @@
                                 <buttonConfiguration key="configuration" style="gray" title="Scan">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="scanButtonPressed:" destination="w2L-o7-b58" eventType="touchUpInside" id="m9e-cA-SjE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITP-Xr-65F">
                                 <rect key="frame" x="54" y="410" width="303" height="77"/>
@@ -158,6 +161,7 @@
                     <connections>
                         <outlet property="helloTitle" destination="cA9-Bb-1K6" id="fhC-gl-jd0"/>
                         <segue destination="HKy-wt-g3P" kind="showDetail" identifier="pointViewSegue" id="QP2-cu-HB1"/>
+                        <segue destination="cjl-jW-Ccq" kind="showDetail" identifier="scanSegue" id="N4Y-1t-sgq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qL8-aD-bX1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -185,20 +189,20 @@
             <objects>
                 <viewController storyboardIdentifier="ScanViewController" id="cjl-jW-Ccq" customClass="ScanViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hHv-Wh-rgX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j1X-2y-E3U">
-                                <rect key="frame" x="0.0" y="717" width="414" height="179"/>
+                                <rect key="frame" x="0.0" y="673.5" width="414" height="168.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Object Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTu-Yz-smB">
-                                        <rect key="frame" x="20" y="10" width="374" height="42"/>
+                                        <rect key="frame" x="20" y="10" width="374" height="31.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accuracy 0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EH8-mH-O42">
-                                        <rect key="frame" x="20" y="62" width="374" height="21"/>
+                                        <rect key="frame" x="20" y="51.5" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -225,6 +229,11 @@
                             <constraint firstAttribute="bottom" secondItem="j1X-2y-E3U" secondAttribute="bottom" id="bO5-89-jyJ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="accuracyLabel" destination="EH8-mH-O42" id="pDb-99-uIt"/>
+                        <outlet property="belowView" destination="hHv-Wh-rgX" id="1ut-Ii-qy9"/>
+                        <outlet property="objectNameLabel" destination="oTu-Yz-smB" id="hh8-W6-Beg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YL3-Go-2eU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
