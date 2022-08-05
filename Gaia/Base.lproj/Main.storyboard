@@ -16,13 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail" translatesAutoresizingMaskIntoConstraints="NO" id="aeS-Xw-uAu">
-                                <rect key="frame" x="87" y="89" width="240" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="FVk-Zw-cq4"/>
-                                    <constraint firstAttribute="height" constant="128" id="gZB-ui-dL7"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gaia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03w-3a-hNQ">
                                 <rect key="frame" x="168" y="207" width="79" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
@@ -66,31 +59,29 @@
                                     <segue destination="w2L-o7-b58" kind="show" id="VzV-sR-cIm"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="#A2C9FF" translatesAutoresizingMaskIntoConstraints="NO" id="zaq-fk-Dhz">
+                                <rect key="frame" x="10" y="-43" width="395" height="329"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aeS-Xw-uAu" secondAttribute="trailing" constant="87" id="3ie-Ju-XcH"/>
                             <constraint firstItem="03w-3a-hNQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="168" id="4NN-XL-hWi"/>
                             <constraint firstItem="03w-3a-hNQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="163" id="5ew-v2-D39"/>
                             <constraint firstItem="Gs4-qB-T6H" firstAttribute="top" secondItem="VTg-4o-fui" secondAttribute="bottom" constant="22" id="A9K-Hb-3AW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VTg-4o-fui" secondAttribute="trailing" constant="20" id="GPa-f1-2nw"/>
-                            <constraint firstItem="aeS-Xw-uAu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="HoY-fO-lP4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4yP-l8-s53" secondAttribute="trailing" constant="135" id="Pdk-zw-PlF"/>
                             <constraint firstItem="Mqc-yc-OJO" firstAttribute="top" secondItem="03w-3a-hNQ" secondAttribute="bottom" constant="39" id="TNb-Cc-cZS"/>
                             <constraint firstItem="VTg-4o-fui" firstAttribute="top" secondItem="Mqc-yc-OJO" secondAttribute="bottom" constant="25" id="W9p-7d-4aF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gs4-qB-T6H" secondAttribute="trailing" constant="20" id="ch7-Aa-hcD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="03w-3a-hNQ" secondAttribute="trailing" constant="167" id="ck9-He-86f"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aeS-Xw-uAu" secondAttribute="trailing" constant="87" id="f4H-ce-Xt5"/>
                             <constraint firstItem="4yP-l8-s53" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="136" id="iGn-pn-rlk"/>
-                            <constraint firstItem="aeS-Xw-uAu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="iOM-Me-5aM"/>
-                            <constraint firstItem="aeS-Xw-uAu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="kBU-mK-Rj8"/>
                             <constraint firstItem="4yP-l8-s53" firstAttribute="top" secondItem="Gs4-qB-T6H" secondAttribute="bottom" constant="39" id="khk-dx-tax"/>
                             <constraint firstItem="VTg-4o-fui" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lfw-Cn-12i"/>
                             <constraint firstItem="Gs4-qB-T6H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lil-VG-SCn"/>
                             <constraint firstItem="Mqc-yc-OJO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="pfv-NY-mvT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mqc-yc-OJO" secondAttribute="trailing" constant="20" id="qaO-ol-uOb"/>
-                            <constraint firstItem="aeS-Xw-uAu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="tD3-vq-mXO"/>
                         </constraints>
                     </view>
                     <connections>
@@ -168,17 +159,65 @@
             </objects>
             <point key="canvasLocation" x="740.57971014492762" y="83.705357142857139"/>
         </scene>
-        <!--Points View Controller-->
+        <!--Points-->
         <scene sceneID="cI2-Rp-cxR">
             <objects>
                 <viewController storyboardIdentifier="PointsViewController" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="8Ku-PS-9vE" customClass="PointsViewController" customModule="Gaia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hvY-Jt-zZN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ye-Tc-vON">
+                                <rect key="frame" x="0.0" y="194" width="414" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="160 points">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGm-E5-bqJ">
+                                <rect key="frame" x="0.0" y="481" width="414" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="1 tree planted so far!">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jV-k0-sty">
+                                <rect key="frame" x="0.0" y="435" width="414" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="40 more points to plant your next tree.">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deciduous-tree" translatesAutoresizingMaskIntoConstraints="NO" id="SED-du-3sU">
+                                <rect key="frame" x="87" y="262" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="RKA-oE-4OE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2ye-Tc-vON" firstAttribute="leading" secondItem="RKA-oE-4OE" secondAttribute="leading" id="CT0-7z-qLc"/>
+                            <constraint firstItem="RKA-oE-4OE" firstAttribute="trailing" secondItem="2ye-Tc-vON" secondAttribute="trailing" id="jvO-4V-Nne"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="fHx-Ju-gcu"/>
+                    <navigationItem key="navigationItem" title="Points" id="fHx-Ju-gcu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dmm-oE-Pfk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -230,9 +269,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="accuracyLabel" destination="EH8-mH-O42" id="pDb-99-uIt"/>
-                        <outlet property="belowView" destination="hHv-Wh-rgX" id="1ut-Ii-qy9"/>
-                        <outlet property="objectNameLabel" destination="oTu-Yz-smB" id="hh8-W6-Beg"/>
+                        <outlet property="accLabel" destination="EH8-mH-O42" id="cbd-UL-OuS"/>
+                        <outlet property="objectNameLabel" destination="oTu-Yz-smB" id="aKk-QD-szS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YL3-Go-2eU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -259,7 +297,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="mail" width="800" height="800"/>
+        <image name="#A2C9FF" width="500" height="500"/>
+        <image name="deciduous-tree" width="256" height="256"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

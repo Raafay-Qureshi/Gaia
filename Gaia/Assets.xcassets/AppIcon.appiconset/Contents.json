@@ -1,11 +1,13 @@
 {
   "images" : [
     {
+      "filename" : "Screen Shot 2022-07-30 at 7.23.56 PM (1).jpg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "Screen Shot 2022-07-30 at 7.23.56 PM.jpg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
@@ -76,6 +78,7 @@
       "size" : "76x76"
     },
     {
+      "filename" : "Screen Shot 2022-07-30 at 7.23.56 PM (3).jpg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"

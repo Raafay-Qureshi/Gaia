@@ -18,6 +18,8 @@
 		8F30070B28959FBC00386D51 /* PointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30070A28959FBC00386D51 /* PointsViewController.swift */; };
 		8FBB4B762895C41300E590ED /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB4B752895C41300E590ED /* ScanViewController.swift */; };
 		8FC5982F28959B3E003932E4 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8FC5982E28959B3E003932E4 /* Resnet50.mlmodel */; };
+		8FC59831289646B4003932E4 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8FC59830289646B4003932E4 /* SqueezeNet.mlmodel */; };
+		8FC5987128966059003932E4 /* deciduous-tree.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC5987028966059003932E4 /* deciduous-tree.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		8F30070A28959FBC00386D51 /* PointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewController.swift; sourceTree = "<group>"; };
 		8FBB4B752895C41300E590ED /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		8FC5982E28959B3E003932E4 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		8FC59830289646B4003932E4 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		8FC5987028966059003932E4 /* deciduous-tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deciduous-tree.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				2269CFB128957E99004D5895 /* LoginViewController.swift */,
 				2269CFB328957E99004D5895 /* Main.storyboard */,
 				2269CFB928957E9D004D5895 /* Assets.xcassets */,
+				8FC5987028966059003932E4 /* deciduous-tree.png */,
+				8FC59830289646B4003932E4 /* SqueezeNet.mlmodel */,
 				2269CFBB28957E9D004D5895 /* LaunchScreen.storyboard */,
 				2269CFBE28957E9D004D5895 /* Info.plist */,
 				2269CFB628957E99004D5895 /* Gaia.xcdatamodeld */,
@@ -143,6 +149,7 @@
 				2269CFBD28957E9D004D5895 /* LaunchScreen.storyboard in Resources */,
 				2269CFBA28957E9D004D5895 /* Assets.xcassets in Resources */,
 				2269CFB528957E99004D5895 /* Main.storyboard in Resources */,
+				8FC5987128966059003932E4 /* deciduous-tree.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2269CFB228957E99004D5895 /* LoginViewController.swift in Sources */,
+				8FC59831289646B4003932E4 /* SqueezeNet.mlmodel in Sources */,
 				8F30070B28959FBC00386D51 /* PointsViewController.swift in Sources */,
 				2269CFAE28957E99004D5895 /* AppDelegate.swift in Sources */,
 				2269CFB028957E99004D5895 /* SceneDelegate.swift in Sources */,
@@ -307,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5HD9TZP5GD;
+				DEVELOPMENT_TEAM = JMAGQ5H7TS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Gaia/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Gaia;
@@ -321,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TekFiti.Gaia;
+				PRODUCT_BUNDLE_IDENTIFIER = TekFiti.Gaia1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -336,7 +344,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5HD9TZP5GD;
+				DEVELOPMENT_TEAM = JMAGQ5H7TS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Gaia/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Gaia;
@@ -350,7 +358,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TekFiti.Gaia;
+				PRODUCT_BUNDLE_IDENTIFIER = TekFiti.Gaia1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

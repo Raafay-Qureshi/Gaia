@@ -14,102 +14,10 @@
             filePath = "Gaia/ScanViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "ScanViewController"
             landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "30A7AEE7-0856-49F9-A632-E1F2360ECA0C - 3b8288e9514e49c7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Gaia.ScanViewController.model.getter : __C.MLModel"
-                  moduleName = "Gaia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/coopstudent/Documents/Gaia/Gaia/ScanViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "30A7AEE7-0856-49F9-A632-E1F2360ECA0C - d4bdc52a4d1ab5cb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Gaia.ScanViewController.model.setter : __C.MLModel"
-                  moduleName = "Gaia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/coopstudent/Documents/Gaia/Gaia/ScanViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  uuid = "30A7AEE7-0856-49F9-A632-E1F2360ECA0C - 24eec7eab513a0b8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Gaia.ScanViewController.model.modify : __C.MLModel"
-                  moduleName = "Gaia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/coopstudent/Documents/Gaia/Gaia/ScanViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "30A7AEE7-0856-49F9-A632-E1F2360ECA0C - bb04ab8d2aec9ccb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Gaia.ScanViewController.model.modify : __C.MLModel with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "Gaia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/coopstudent/Documents/Gaia/Gaia/ScanViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  uuid = "30A7AEE7-0856-49F9-A632-E1F2360ECA0C - d0083aca68c4cb4c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Gaia.ScanViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Gaia.ScanViewController"
-                  moduleName = "Gaia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/coopstudent/Documents/Gaia/Gaia/ScanViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "224">
-               </Location>
-               <Location
-                  uuid = "30A7AEE7-0856-49F9-A632-E1F2360ECA0C - bbbdf2875a07ffa6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Gaia.ScanViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Gaia.ScanViewController&gt;"
-                  moduleName = "Gaia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/coopstudent/Documents/Gaia/Gaia/ScanViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "200">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
